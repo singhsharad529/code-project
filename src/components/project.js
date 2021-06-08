@@ -42,7 +42,7 @@ export const Project = () => {
        <>
         <br />
     
-        <div className="container " >
+        <div className="container" >
             <div className="card" style={{ border: '1px solid #eee', borderRadius: '5px', boxShadow: '0 2px 12px 0 rgba(0,0,0,0.1)' }} >
                 <div className="card-body">
                     <p className="card-title"><span className="fa fa-star checked"></span>
@@ -112,6 +112,7 @@ export const Project = () => {
                 </div>
             </div>
         </div>
+        <br />
         </>
     )
 }
