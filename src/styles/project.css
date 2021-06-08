@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box;
+  }
+  .checked {
+    color: orange;
+  }
+  .myhover:hover {
+      opacity: 0.6;
+  }
