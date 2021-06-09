@@ -7,3 +7,23 @@
   .myhover:hover {
       opacity: 0.6;
   }
+
+  .tab_h{
+    font-size: 13px;
+    display: flex; 
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    /* display: inline-block; */
+    /* padding: 8px; */
+    padding-left: 0px;
+  }
+  
+  .round-tab_h{
+    margin-bottom: 6px;
+    margin-right: 8px;
+    border-radius: 25px;
+    padding: 2px 7px 4px;
+    color: #1f1e1d;
+    font-weight: bold;
+    background-color:#eceae7 ;
+  }

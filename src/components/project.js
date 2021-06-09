@@ -71,24 +71,24 @@ export const Project = () => {
                             </div>
                             <div className="row pt-0 pb-4 no-gutters">
                                 <div className="col">
-                                    <a href="#" className="myhover" onClick={openLotus}>
-                                        <img className="img-fluid" src={pic1} alt="Lotus" />
-                                    </a>
+                                    <button   className="myhover" style={{border:'none',background:'none'}} onClick={openLotus}>
+                                        <img className="img-fluid" src={pic1} alt="Lotus" style={{width:'100%'}} />
+                                    </button>
                                 </div>
                                 <div className="col">
-                                    <a href="#" className="myhover" onClick={openBoat}>
+                                    <button className="myhover" style={{border:'none',background:'none'}}  onClick={openBoat}>
                                         <img className="img-fluid" src={pic2} alt="Boat" />
-                                    </a>
+                                    </button>
                                 </div>
                                 <div className="col">
-                                    <a href="#" className="myhover" onClick={openLeaves}>
+                                    <button className="myhover" style={{border:'none',background:'none'}} onClick={openLeaves}>
                                         <img className="img-fluid" src={pic3} alt="Leaves" />
-                                    </a>
+                                    </button>
                                 </div>
                                 <div className="col">
-                                    <a href="#" className="myhover" onClick={openRocks}>
+                                    <button className="myhover" style={{border:'none',background:'none'}} onClick={openRocks}>
                                         <img className="img-fluid" src={pic4} alt="Rocks" />
-                                    </a>
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -97,7 +97,13 @@ export const Project = () => {
                             <h6 className="card-title">Team Leader: Mahima Rai</h6>
                             <p className="card-text">Our project aims to share the precise amount of information that would be beneficial to many Bencolites throughout their Campus life!!
                             We want to bridge the gap between students who have knowledge and those who seek it. Campus Cauldron's motto is to bring BIETians together to ask, answer and seek information brewing in the same cauldron. Their regular visit on our website will be most valued.
-</p>
+                        </p>
+                        <div className="tab_h">
+                <span className="round-tab_h">Designing</span>
+                <span className="round-tab_h">Web development</span>
+                <span className="round-tab_h">Coding</span> 
+                <span className="round-tab_h">React</span> 
+                        </div>
                             <div className="btn-group m-1">
                                 <a href="https://github.com/codebiet/Campus_Cauldron" target="_blank" ><button type="button" className="btn btn-warning">Github</button></a>
                             </div>
