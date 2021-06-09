@@ -69,7 +69,7 @@ export const Project = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="row pt-0 pb-4 no-gutters">
+                            <div className="row pt-0 pb-4 no-gutters mt-1">
                                 <div className="col">
                                     <button   className="myhover" style={{border:'2px solid #d1d0cd',background:'none',borderRadius:'4px',margin:'0px',padding:'0px'}} onClick={openLotus}>
                                         <img className="img-fluid" src={pic1} alt="Lotus" style={{width:'100%',borderRadius:'4px',margin:'0px'}}/>
@@ -87,7 +87,7 @@ export const Project = () => {
                                 </div>
                                 <div className="col">
                                     <button className="myhover" style={{border:'2px solid #d1d0cd',background:'none',borderRadius:'4px',margin:'0px',padding:'0px'}} onClick={openRocks}>
-                                        <img className="img-fluid" src={pic4} alt="Rocks" style={{width:'100%',borderRadius:'4px',margin:'0px'}} />
+                                        <img className="img-fluid" src={pic4} alt="Rocks" style={{width:'100%',borderRadius:'2px',margin:'0px'}} />
                                     </button>
                                 </div>
                             </div>
