@@ -71,30 +71,30 @@ export const Project = () => {
                             </div>
                             <div className="row pt-0 pb-4 no-gutters">
                                 <div className="col">
-                                    <button   className="myhover" style={{border:'none',background:'none'}} onClick={openLotus}>
-                                        <img className="img-fluid" src={pic1} alt="Lotus" style={{width:'100%'}} />
+                                    <button   className="myhover" style={{border:'2px solid #d1d0cd',background:'none',borderRadius:'4px',margin:'0px',padding:'0px'}} onClick={openLotus}>
+                                        <img className="img-fluid" src={pic1} alt="Lotus" style={{width:'100%',borderRadius:'4px',margin:'0px'}}/>
                                     </button>
                                 </div>
                                 <div className="col">
-                                    <button className="myhover" style={{border:'none',background:'none'}}  onClick={openBoat}>
-                                        <img className="img-fluid" src={pic2} alt="Boat" />
+                                    <button className="myhover"style={{border:'2px solid #d1d0cd',background:'none',borderRadius:'4px',margin:'0px',padding:'0px'}}  onClick={openBoat}>
+                                        <img className="img-fluid" src={pic2} alt="Boat" style={{width:'100%',borderRadius:'4px',margin:'0px'}} />
                                     </button>
                                 </div>
                                 <div className="col">
-                                    <button className="myhover" style={{border:'none',background:'none'}} onClick={openLeaves}>
-                                        <img className="img-fluid" src={pic3} alt="Leaves" />
+                                    <button className="myhover" style={{border:'2px solid #d1d0cd',background:'none',borderRadius:'4px',margin:'0px',padding:'0px'}} onClick={openLeaves}>
+                                        <img className="img-fluid" src={pic3} alt="Leaves" style={{width:'100%',borderRadius:'4px',margin:'0px'}}/>
                                     </button>
                                 </div>
                                 <div className="col">
-                                    <button className="myhover" style={{border:'none',background:'none'}} onClick={openRocks}>
-                                        <img className="img-fluid" src={pic4} alt="Rocks" />
+                                    <button className="myhover" style={{border:'2px solid #d1d0cd',background:'none',borderRadius:'4px',margin:'0px',padding:'0px'}} onClick={openRocks}>
+                                        <img className="img-fluid" src={pic4} alt="Rocks" style={{width:'100%',borderRadius:'4px',margin:'0px'}} />
                                     </button>
                                 </div>
                             </div>
                         </div>
                         <div className="col-sm-6">
                             <h4 className="card-title">Campus Cauldron</h4>
-                            <h6 className="card-title">Team Leader: Mahima Rai</h6>
+                            <h5 className="card-title">Team Leader: Mahima Rai</h5>
                             <p className="card-text">Our project aims to share the precise amount of information that would be beneficial to many Bencolites throughout their Campus life!!
                             We want to bridge the gap between students who have knowledge and those who seek it. Campus Cauldron's motto is to bring BIETians together to ask, answer and seek information brewing in the same cauldron. Their regular visit on our website will be most valued.
                         </p>
