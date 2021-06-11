@@ -13,9 +13,7 @@ function Header() {
         <div className="t">
           <h1>Our Projects</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
-            amet, porro unde nihil blanditiis harum corporis accusantium magnam
-            nesciunt ad{" "}
+          We have completed a lot of projects in our Buildathon event where many students learned new technologies and finished their project in team with perfect teamwork.
           </p>
         </div>
       </div>
