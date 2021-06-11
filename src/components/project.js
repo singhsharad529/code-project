@@ -6,7 +6,8 @@ import pic4 from '../assets/44.png'
 
 import '../styles/project.css'
 
-export const Project = () => {
+export const Project = (props) => {
+    
     const [lotus, setlotus] = useState('block');
     const [boat, setboat] = useState('none');
     const [leaves, setleaves] = useState('none');
@@ -56,47 +57,46 @@ export const Project = () => {
                             <div className="row pt-4">
                                 <div className="col-12">
                                     <div id="lotus" className="picture" >
-                                        <img className="img-fluid" src={pic1} alt="Lotus" style={{ display: lotus }} />
+                                        <img className="img-fluid" src={props.data.pic1} alt="Lotus" style={{ display: lotus }} />
                                     </div>
                                     <div id="boat" className="picture" style={{ display: boat }}>
-                                        <img className="img-fluid" src={pic2} alt="Boat" />
+                                        <img className="img-fluid" src={props.data.pic2} alt="Boat" />
                                     </div>
                                     <div id="leaves" className="picture" style={{ display: leaves }}>
-                                        <img className="img-fluid" src={pic3} alt="Leaves" />
+                                        <img className="img-fluid" src={props.data.pic3} alt="Leaves" />
                                     </div>
                                     <div id="rocks" className="picture" style={{ display: rocks }}>
-                                        <img className="img-fluid" src={pic4} alt="Rocks" />
+                                        <img className="img-fluid" src={props.data.pic4} alt="Rocks" />
                                     </div>
                                 </div>
                             </div>
                             <div className="row pt-0 pb-4 no-gutters mt-2">
                                 <div className="col">
                                     <button   className="myhover" style={{border:'1px solid #d1d0cd',background:'none',borderRadius:'4px',margin:'0px',padding:'0px'}} onClick={openLotus}>
-                                        <img className="img-fluid" src={pic1} alt="Lotus" style={{width:'100%',borderRadius:'4px',margin:'0px'}}/>
+                                        <img className="img-fluid" src={props.data.pic1} alt="Lotus" style={{width:'100%',borderRadius:'4px',margin:'0px'}}/>
                                     </button>
                                 </div>
                                 <div className="col">
                                     <button className="myhover"style={{border:'1px solid #d1d0cd',background:'none',borderRadius:'4px',margin:'0px',padding:'0px'}}  onClick={openBoat}>
-                                        <img className="img-fluid" src={pic2} alt="Boat" style={{width:'100%',borderRadius:'4px',margin:'0px'}} />
+                                        <img className="img-fluid" src={props.data.pic2} alt="Boat" style={{width:'100%',borderRadius:'4px',margin:'0px'}} />
                                     </button>
                                 </div>
                                 <div className="col">
                                     <button className="myhover" style={{border:'1px solid #d1d0cd',background:'none',borderRadius:'4px',margin:'0px',padding:'0px'}} onClick={openLeaves}>
-                                        <img className="img-fluid" src={pic3} alt="Leaves" style={{width:'100%',borderRadius:'4px',margin:'0px'}}/>
+                                        <img className="img-fluid" src={props.data.pic3} alt="Leaves" style={{width:'100%',borderRadius:'4px',margin:'0px'}}/>
                                     </button>
                                 </div>
                                 <div className="col">
                                     <button className="myhover" style={{border:'1px solid #d1d0cd',background:'none',borderRadius:'4px',margin:'0px',padding:'0px'}} onClick={openRocks}>
-                                        <img className="img-fluid" src={pic4} alt="Rocks" style={{width:'100%',borderRadius:'4px',margin:'0px'}} />
+                                        <img className="img-fluid" src={props.data.pic4} alt="Rocks" style={{width:'100%',borderRadius:'4px',margin:'0px'}} />
                                     </button>
                                 </div>
                             </div>
                         </div>
                         <div className="col-sm-6">
-                            <h4 className="card-title">Campus Cauldron</h4>
-                            <h5 className="card-title">Team Leader: Mahima Rai</h5>
-                            <p className="card-text">Our project aims to share the precise amount of information that would be beneficial to many Bencolites throughout their Campus life!!
-                            We want to bridge the gap between students who have knowledge and those who seek it. Campus Cauldron's motto is to bring BIETians together to ask, answer and seek information brewing in the same cauldron. Their regular visit on our website will be most valued.
+                            <h4 className="card-title">{props.data.project_name}</h4>
+                            <h5 className="card-title">Team Leader: {props.data.leader}</h5>
+                            <p className="card-text">{props.data.description}
                         </p>
                         <div className="tab_h">
                 <span className="round-tab_h">Designing</span>
@@ -105,13 +105,13 @@ export const Project = () => {
                 <span className="round-tab_h">React</span> 
                         </div>
                             <div className="btn-group m-1">
-                                <a href="https://github.com/codebiet/Campus_Cauldron" target="_blank" ><button type="button" className="btn btn-warning">Github</button></a>
+                                <a href={props.data.github} target="_blank" ><button type="button" className="btn btn-warning">Github</button></a>
                             </div>
                             <div className="btn-group m-1">
-                                <a href="https://drive.google.com/file/d/1LPOv4eP5MtGaQ1FZ2ZlTC_EkS_tuumoC/view?usp=drivesdk" target="_blank"><button type="button" className="btn btn-warning">Demo</button></a>
+                                <a href={props.data.demo} target="_blank"><button type="button" className="btn btn-warning">Demo</button></a>
                             </div>
                             <div className="btn-group m-1">
-                                <a href="https://docs.google.com/document/d/1vM0KnRmHMaHDT08pye3JM3XMtVndpZ-X4lVDCBHIS7Q/edit" target="_blank"><button type="button" className="btn btn-warning">Documentation</button></a>
+                                <a href={props.data.documentation} target="_blank"><button type="button" className="btn btn-warning">Documentation</button></a>
                             </div>
                         </div>
                     </div>

@@ -5,22 +5,29 @@ import {Project} from "./components/project";
 import Header from "./components/header";
 import Filter from "./components/filter";
 
+import Data from "./data";
+
 function App() {
+  console.log(Data[0]);
+
   return (
     <>
     <div className="Appdiv">
      <Header/>
      <Filter/>
-
-     {/* <User_info_nav/> */}
-     {/* <Card/>
-     <Pagination/> */}
     </div>
-   
-      <Project/>
-      <Project/>
-      <Project/>
-      <Project/>
+   {
+    Data.map((dt)=>{
+      return(
+        <Project data={dt}/>
+      )
+    })
+
+   }
+    
+     
+    
+      
      
     </>
   );
