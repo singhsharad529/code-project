@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/code-project/static/css/main.40bb5f21.chunk.css",
-    "main.js": "/code-project/static/js/main.dcd574af.chunk.js",
-    "main.js.map": "/code-project/static/js/main.dcd574af.chunk.js.map",
+    "main.js": "/code-project/static/js/main.3c89449b.chunk.js",
+    "main.js.map": "/code-project/static/js/main.3c89449b.chunk.js.map",
     "runtime-main.js": "/code-project/static/js/runtime-main.aa6a2589.js",
     "runtime-main.js.map": "/code-project/static/js/runtime-main.aa6a2589.js.map",
     "static/css/2.61b4cb56.chunk.css": "/code-project/static/css/2.61b4cb56.chunk.css",
@@ -18,13 +18,44 @@
     "static/media/22.a7c136d1.png": "/code-project/static/media/22.a7c136d1.png",
     "static/media/33.93bfb1ca.png": "/code-project/static/media/33.93bfb1ca.png",
     "static/media/44.1c3aa380.png": "/code-project/static/media/44.1c3aa380.png",
-    "static/media/header.b15b71ca.svg": "/code-project/static/media/header.b15b71ca.svg"
+    "static/media/bugbuster_p1.776edcc8.jpg": "/code-project/static/media/bugbuster_p1.776edcc8.jpg",
+    "static/media/bugbuster_p2.826974e0.jpg": "/code-project/static/media/bugbuster_p2.826974e0.jpg",
+    "static/media/bugbuster_p3.a188855e.jpg": "/code-project/static/media/bugbuster_p3.a188855e.jpg",
+    "static/media/collegebuddy_p1.0e4ebe4f.png": "/code-project/static/media/collegebuddy_p1.0e4ebe4f.png",
+    "static/media/collegebuddy_p2.a8599b64.png": "/code-project/static/media/collegebuddy_p2.a8599b64.png",
+    "static/media/collegebuddy_p3.31fa6f5a.png": "/code-project/static/media/collegebuddy_p3.31fa6f5a.png",
+    "static/media/collegebuddy_p4.f7a21e7c.png": "/code-project/static/media/collegebuddy_p4.f7a21e7c.png",
+    "static/media/comeet_p1.c3f9ace0.jpg": "/code-project/static/media/comeet_p1.c3f9ace0.jpg",
+    "static/media/comeet_p2.8caca0cb.jpg": "/code-project/static/media/comeet_p2.8caca0cb.jpg",
+    "static/media/comeet_p3.38fd3f61.jpg": "/code-project/static/media/comeet_p3.38fd3f61.jpg",
+    "static/media/comeet_p4.fc2e30ab.jpg": "/code-project/static/media/comeet_p4.fc2e30ab.jpg",
+    "static/media/hangman_p1.bf85132a.png": "/code-project/static/media/hangman_p1.bf85132a.png",
+    "static/media/hangman_p2.0abe2aad.jpg": "/code-project/static/media/hangman_p2.0abe2aad.jpg",
+    "static/media/hangman_p3.f0e3ed18.jpg": "/code-project/static/media/hangman_p3.f0e3ed18.jpg",
+    "static/media/hangman_p4.518914f3.jpg": "/code-project/static/media/hangman_p4.518914f3.jpg",
+    "static/media/header.b15b71ca.svg": "/code-project/static/media/header.b15b71ca.svg",
+    "static/media/infixtoprefix_p1.0d015574.jpg": "/code-project/static/media/infixtoprefix_p1.0d015574.jpg",
+    "static/media/infixtoprefix_p2.e36a81bf.jpg": "/code-project/static/media/infixtoprefix_p2.e36a81bf.jpg",
+    "static/media/infixtoprefix_p3.a76d027f.jpg": "/code-project/static/media/infixtoprefix_p3.a76d027f.jpg",
+    "static/media/infixtoprefix_p4.6e3bdcda.jpg": "/code-project/static/media/infixtoprefix_p4.6e3bdcda.jpg",
+    "static/media/keeper_p1.406cad26.jpg": "/code-project/static/media/keeper_p1.406cad26.jpg",
+    "static/media/keeper_p2.f3bd8d6d.png": "/code-project/static/media/keeper_p2.f3bd8d6d.png",
+    "static/media/keeper_p3.4d14c437.png": "/code-project/static/media/keeper_p3.4d14c437.png",
+    "static/media/keeper_p4.ee591f93.png": "/code-project/static/media/keeper_p4.ee591f93.png",
+    "static/media/makeiteasy_p1.0fe17302.png": "/code-project/static/media/makeiteasy_p1.0fe17302.png",
+    "static/media/makeiteasy_p2.2b97a4d5.png": "/code-project/static/media/makeiteasy_p2.2b97a4d5.png",
+    "static/media/makeiteasy_p3.6f65193c.png": "/code-project/static/media/makeiteasy_p3.6f65193c.png",
+    "static/media/makeiteasy_p4.31ec26d5.png": "/code-project/static/media/makeiteasy_p4.31ec26d5.png",
+    "static/media/travelista_p1.e3e271e4.jpg": "/code-project/static/media/travelista_p1.e3e271e4.jpg",
+    "static/media/travelista_p2.e60d290b.jpg": "/code-project/static/media/travelista_p2.e60d290b.jpg",
+    "static/media/travelista_p3.8f7e36f3.jpg": "/code-project/static/media/travelista_p3.8f7e36f3.jpg",
+    "static/media/travelista_p4.cc898579.jpg": "/code-project/static/media/travelista_p4.cc898579.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.aa6a2589.js",
     "static/css/2.61b4cb56.chunk.css",
     "static/js/2.33e4c8bf.chunk.js",
     "static/css/main.40bb5f21.chunk.css",
-    "static/js/main.dcd574af.chunk.js"
+    "static/js/main.3c89449b.chunk.js"
   ]
 }
